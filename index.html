@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto-Rate</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="/src/styles/style.css">
+
+</head>
+
+<body>
+    <h1>Crypto-Rate</h1>
+    <div id="container">
+        <form>
+
+            <label for="cripto">Cripto-currency</label>
+            <select id="cripto" name="valueList">
+                <option id="btc">BTC</option>
+                <option id="eth">ETH</option>
+                <option id="ltc">LTC</option>
+                <option id="xrp">XRP</option>
+                <option id="ada">ADA</option>
+            </select>
+
+            <input type="text" id="quantity" name="quantity" placeholder="How much is it?">
+
+            <label for="currency">Currency</label>
+            <select id="currency" name="valueList">
+                <option id="eur">EUR</option>
+                <option id="usd">USD</option>
+                <option id="gbp">GBP</option>
+                <option id="aus">AUS</option>
+                <option id="brl">BRL</option>
+            </select>
+
+            <input type="text" id="result" disabled="disabled" name="result">
+            <input id="button" type="button" value="Convert">
+        </form>
+    </div>
+
+    <script src="/src/scripts/index.js"></script>
+</body>
+
+</html>

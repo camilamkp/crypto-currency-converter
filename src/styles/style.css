@@ -1,0 +1,89 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #172a3a;
+}
+
+body h1 {
+  color: #09BC8A;
+}
+
+body #container {
+  height: 400px;
+  width: 400px;
+  background: #508991;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 14px;
+}
+
+body #container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  color: #09BC8A;
+  border: none;
+}
+
+body #container form select {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #508991;
+  color: #f1f1f1;
+}
+
+body #container input[type=text] {
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  border: 1px solid #09BC8A;
+}
+
+body #container input[type=button] {
+  background-color: #09BC8A;
+  border: none;
+  color: #f1f1f1;
+  padding: 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+body #container input[type=button]:hover {
+  background-color: #055e45;
+}
+/*# sourceMappingURL=style.css.map */
